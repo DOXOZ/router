@@ -1,9 +1,9 @@
 // src/App.jsx
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/Header';
-import UserList from './components/UserList';
-import UserDetail from './components/UserDetail';
-import NotFound from './components/NotFound';
+import UserList from './pages/UserList';
+import UserDetail from './pages/UserDetail';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
